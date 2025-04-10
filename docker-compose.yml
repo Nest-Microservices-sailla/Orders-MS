@@ -11,5 +11,5 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=123456
-      - POSTGRES_DB=orderssb
+      - POSTGRES_DB=ordersdb
     container_name: orders_database
